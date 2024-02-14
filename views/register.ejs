@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/register.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="head-ing">
+    
+        <h1> JOBSCORNER </h1> 
+    </div>
+
+    <div class="login-box">
+        <h2>Register</h2>
+        <form action="/register/submit" method="post">
+            <table><tr><td>
+            <div class="user-box">
+                <input type="text" name="first_name" id="first_name" required="">
+                <label for="firstname">First Name</label>
+            </div>
+            </td>
+            <td>
+            <div class="user-box">
+                <input type="text" name="last_name" id="last_name" required="">
+                <label for="">Last Name</label>
+            </div>
+            </td><td>
+                <div class="user-box">
+                    <input type="text" name="username" id="username" required="">
+                    <label for="username">Username</label>
+                </div>
+            </td>
+            </tr>
+            <tr><td>
+            <div class="user-box">
+                <input type="text" name="email" id="email" required="">
+                <label for="email">Email</label>
+            </div>
+        </td><td>
+            <div class="user-box">
+                <input type="text" name="gender" id="gender" required="">
+                <label for="gender">Gender</label>
+            </div>
+        </td>
+            <td>
+            <div class="user-box">
+                <input type="text" name="phone" id="phone" required="">
+                <label for="phone">Phone No</label>
+            </div>
+            </td></tr>
+            <tr><td>
+                <div class="user-box">
+                    <label for="dob">Date of Birth</label>
+                    <br><br>
+                    <input type="date" name="dob" id="dob" required="" value="">
+                    
+                </div>
+            </td>
+             <td>
+            <div class="user-box">
+                <input type="password" name="pwd" id="pwd" required="">
+                <label for="password">Password</label>
+            </div>
+            </td><td>
+            <div class="user-box">
+                <input type="password" name="confirmpwd" id="confirm" required="">
+                <label for="confirmpwd">Confirm Password</label>
+            </div>
+            </td></tr>
+            <tr><td>
+            <button type="submit" class="login-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                SUBMIT</button>
+                </td><td>
+                    <p style="left: 20px;"><a href="/login" style="color: white; ">Already have an account?..Login</a></p>
+                </td></tr></table>
+            </form>
+            
+    </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+
+    <script src="/javascripts/job.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <h1 class="jobscorner">JOBSCORNER</h1>
+        
+        <nav class="navigation">
+            
+            <form class="example" action="" >
+                <input type="text" class="searchbar" name="search" placeholder="SEARCH...">
+                
+            </form>
+                <a class="link" href="/">  HOME  </a>
+                <a class="link" href="#"> ABOUT </a>
+                <a class="link" href="#">POST JOB</a>
+                <a class="link" href="#">CATEGORY</a>
+                <a class="link" href="#">CONTACT </a>  
+        </nav>    
+    </header>
+    <section class="section">
+        <img class="chechi" src="/images/open.jpg">
+    
+    <div class="get_job">
+        <h4>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</h4>
+    </div>
+    </section>
+    <fieldset>
+        <legend >POST A JOB</legend>
+        
+        <form action="postjob" method="post">
+         <p> <label for="job">Job:</label>
+          <input type="text" class="jobform" id="job" name="job" required></p>
+         <p> <label for="location">Location:</label>
+          <input type="text" class="jobform" id="location" name="location" required> </p>
+          
+          <p><label for="datee">Date:</label><input type="date" class="jobform" id="datee" name="datee" /></p>
+          <p> Start Time:<input type="time" class="jobform" id="stime" name="stime"></p>
+        <p>End Time:<input type="time" class="jobform" id="etime" name="etime"></p>
+          <p>No of workers: <input type="number" class="jobform" id="wno" name="wno"></p>
+         <p> Job description:<textarea id="story" class="jobform" name="story" rows="5" cols="33">
+        ...
+        </textarea></p>
+        <p>Wage:<input type="text" class="jobform" id="wage" name="wage"></p>
+        <p>Phone No:<input type="phone" class="jobform" id="ph1" name="ph1"></p>
+        <p>Alter Ph:<input type="phone" class="jobform" id="ph2" name="ph2"></p>
+        <button type="submit">Submit</button>
+          
+        </form>
+        </fieldset>
+        
+
+</body>
+</html>

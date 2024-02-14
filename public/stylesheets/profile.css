@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.prof_head{
+    width:100%;
+    height: 5vw;
+    background-color: rgb(69, 129, 214);
+    display:inline-block;
+}
+.ri-arrow-left-fill{
+    float: left;
+    margin: 0 1.2vw;
+    font-size: 3vw;
+    font-weight: 600;
+    color: black;
+}
+.ri-arrow-left-fill:hover{
+    color: whitesmoke;
+}
+.profile-header{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.profile_body{
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+.left_pro{
+    width: 45%;
+    height: auto;
+}
+.right_pro{
+    width: 65%;
+    height: auto;
+}
+
+.profile_pic{
+    display: block;
+    height: 15vw;
+    margin:auto;
+    margin-top: 15vw;
+    clip-path: circle(50% at 50% 50%);
+
+}
+.name, .uname,
+.gender, .d-o-b,
+.phone_no, .password,
+.email_id, .address{
+    margin: 4vw 6vw;
+    flex-direction: column;
+}
+.name h2, .uname h2,
+.gender h2, .d-o-b h2,
+.phone_no h2, .password h2,
+.email_id h2, .address  h2{
+    font-size: 2.7vw;
+}
+
+.name h5, .uname h5,
+.gender h5, .d-o-b h5,
+.phone_no h5, .password h5,
+.email_id h5, .address h5{
+    font-size: 1.5vw;
+}
+.btn.btn-primary{
+    align-items: center;
+    width: 15vw;
+    justify-content: center;
+    padding: .5vw 1.8vw;
+    font-size: 1.5vw;
+    margin-left: 45vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+
+@media (max-width:550px) {
+    .left_pro{
+        width:100%;
+        height: 45%;
+    }
+    .right_pro{
+        width:100%;
+        height: 65%;
+    }    
+    .profile_body{
+        flex-direction: column;
+    }
+    
+.profile_body{
+    width: 100%;
+    margin: 0 ;
+}
+.name h2, .uname h2,
+.gender h2, .d-o-b h2,
+.phone_no h2, .password h2,
+.email_id h2, .address  h2{
+    font-size: 2.7vh;
+}
+
+.name h5, .uname h5,
+.gender h5, .d-o-b h5,
+.phone_no h5, .password h5,
+.email_id h5, .address h5{
+    font-size: 1.5vh;
+}
+.name, .uname,
+.gender, .d-o-b,
+.phone_no, .password,
+.email_id, .address{
+    margin: 4vh 10vw;
+}
+.prof_head{
+    height: 10vw;
+}
+.ri-arrow-left-fill, .profile-header{
+    margin-top: 3vw;
+}
+}

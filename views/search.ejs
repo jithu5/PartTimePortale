@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="/stylesheets/search.css"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    
+   <div class="search_btn">
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" id="search-btt" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+
+   </div>
+
+   <section class="job-section">
+
+    <div class="title_jobs">
+        <h2 class="title">JOBS</h2>
+    </div>
+    
+        <div class="products-container">
+            <% userJobs.forEach(joblist => { %>
+            <div class="product" data-name="<%= joblist.post_id %>">
+                <img id="imagesr" class="agens" src="/images/agency.jpg">
+                <h3 class="jobl"><%= joblist.job %></h3>
+                <div class="short"><%= joblist.description %>
+            </div>
+            </div>
+            <% }); %>
+    
+        </div>
+    
+    
+    <div class="job-preview">
+        <% userJobs.forEach(joblist => { %>
+        <div class="preview " id="prev" data-target="<%= joblist.post_id %>">
+            <i class="fas fa-times"></i>
+            <img src="/images/agency.jpg">
+            <h3><%= joblist.job %></h3>
+            <p>
+               <%= joblist.description %>
+            </p>
+    
+            <div class="buttons">
+                <a href="#" class="apply-job">APPLY</a>
+            </div>
+        </div>
+        <% }); %>
+    
+       
+    
+    </div>
+    </section>
+
+   
+</body>
+</html>

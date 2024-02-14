@@ -1,0 +1,716 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main2{
+    height: 100dvh;
+    width: 100%;
+    position: relative;
+
+
+}
+.body_color{
+    background-color: #66B2B2;
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color:transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-2{
+    display: flex;
+    gap: 4vw;
+}
+.nav21, .nav22{
+    text-decoration: none;
+    padding: .2vw .5vw;
+    border-radius: 10px;
+    color:#004c4c ;
+}
+
+.nav21:hover {
+    color:white;
+    background-color: #004c4c;
+}
+.nav22:hover{
+    transform: scale(1.3);
+
+
+}
+.ri-account-circle-fill{
+    align-items: center;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.nav2{
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.jobscorner{
+    font-size: 6vh;
+    font-weight: 900;
+    padding:0 2vw;
+    align-items: center;
+
+}
+.icon{
+    display: none;
+}
+
+.content{
+    height:calc(100dvh - 80px);
+    width: 100%;
+    display: flex;
+
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    padding: 12vw 8vw;
+
+}
+.gjob{
+    position:relative;
+    width: 200px;
+    margin-left: 400px;
+    background-color:#004c4c;
+    border: none;
+    color:aliceblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border-radius: 20px;
+    transition: 0.4s;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2),
+    0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.left h1{
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.left .appl{
+    background-color: #831616;
+    padding: .5vw;
+    color: #ccc;
+    border-radius: 10px;
+    margin: 60px 150px;
+}
+span{
+    color:white;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+
+}
+.jobc{
+    height: 100%;
+    width: 75%;
+    
+}
+
+.title_jobs{
+    background-color: #66B2B2;
+    height: auto;
+    margin-bottom: 0;
+}
+.title{
+    padding: 6vw 0;
+}
+.products-container{
+    width:100%;
+    background-color:#004c4c ;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 5vw; */
+}
+.agens{
+    height: 3vw;
+    clip-path: circle(50% at 50% 50%);
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3vw;
+}
+.product:hover img{
+    transform: scale(1.3);
+    clip-path: circle(50% at 50% 50%);
+}
+.product{
+    height: 20vw;
+    width: 30vw;
+    background-color:#66B2B2;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #004c4c;
+    outline-offset: -1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 12vw;
+
+}
+
+.product:hover{
+    outline: .2rem solid #757272;
+    outline-offset: 0;
+}
+
+.jobl{
+    padding: .3rem 0;
+    font-size: 1.5vw;
+    color: #757272 ;
+    text-align: center;
+}
+.jobl:hover{
+    color: #831616;
+}
+.short{
+    font-size: 1vw;
+    text-align: center;
+    text-decoration: solid;
+}
+.cont{
+    background-color: #66B2B2;
+    padding-top: 2rem;
+    z-index: 3;
+    padding-bottom: 5rem;
+    border-bottom: 2 rem solid#004c4c;
+
+}
+.contact_us{
+    position: relative;
+}
+.contact_head{
+    text-align: center;
+    margin: 3vw auto;
+    font-size: 4vw;
+    font-weight: 700;
+    color:#004c4c;
+}
+.contact_us{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact_us img{
+    height: 3rem;
+    cursor: pointer;
+}
+
+.contact_us img:hover{
+transform: scale(1.3);
+}
+.msge{
+    align-items: center;
+    justify-content: center;
+    margin: 4vw 35vw;
+}
+footer{
+    background-color:#66B2B2;
+    width: 100%;
+    height: min-content;
+    z-index: 3;
+}
+.about_us_footer{
+    text-align: center;
+    margin: 0;
+}
+
+.nav51{
+    color:#004c4c;
+    font-size: 1.5vw;
+    font-weight: 600;
+    line-height: 4vw;
+    text-decoration: none;
+}
+.nav51:hover{
+    color:white;
+}
+
+.foote{
+    
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+footer h2{
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    font-weight: 600;
+    color:black;
+    margin: 5vw 1.2vw;
+}
+.us_span{
+    color:#004c4c;
+}
+.addr{
+    margin: 4vw 1.2vw;
+    color: #831616;
+}
+
+@media (max-width:800px) {
+    
+.nav{
+    height:70px;
+    width: 100%;
+}
+
+.example{display: none;}
+
+.icon{
+    display: block;
+    margin-right: 3vw;
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: .4vw;
+    cursor: pointer;
+}
+.nav-2{
+    position: fixed;
+    width:100%;
+    height: 80vw;
+    background-color: #a19797;
+    top: 70px;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    display: none;
+
+}
+.nav-2.show{
+    left:0;
+}
+ .nav2, .ri-account-circle-fill{
+    font-size: 5vw;
+    display: block;
+    margin: 3vw 0;
+    line-height: 2vw;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: royalblue;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+    transform: scale(1.3);
+}
+
+.content{
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.left{
+    height: 50%;
+    width: 90%;
+    margin-left: 5vw;
+    padding:0px ;
+
+}
+.left h1{
+    font-size: 6vw;
+    padding:0px;
+    padding-top: 3.5vw;
+}
+.right{
+    height: 50%;
+    margin-left: 20vw;
+    
+
+}
+.gjob{
+    margin: 5.5vw 20vw;
+}
+.jobc{
+    height:100%;
+    margin-left: 5vw;
+
+    
+}
+.products-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 1vw;
+}
+.product{
+    padding: 1vw .6vw;
+    height: 30vw;
+}
+
+.container{
+   
+    max-width: 100%;
+    margin: 0 1px;
+    padding: 2vw 1vw;
+}
+.title{
+    font-size: 3vw;
+    color: #831616;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+.product:hover{
+    outline: .2rem solid #757272;
+    outline-offset: 0;
+}
+
+.agens{
+    height: 2vw;
+    clip-path: circle(50% at 50% 50%);
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+.product:hover img{
+    transform: scale(1.3);
+    clip-path: circle(50% at 50% 50%);
+}
+
+
+.product:hover h3{
+    color: #831616;
+}
+#prev{
+    top: 15%;
+    left:13%;
+    height: 70vh;
+    width: 70vw;
+    border-radius: 10px;
+}
+.jobl{
+    font-size:smaller;
+    font-weight: 100;
+    padding: .2vw 0;
+    color: #757272 ;
+}
+
+.short{
+    font-size: .5vw;
+    color:#831616 ;
+}
+.foote{
+    flex-direction: column;
+}
+.about_us_footer{
+    font-size: 5vw;
+    font-weight: 700;
+}
+.addr, footer h2, .footer_link{
+    text-align: center;
+    font-size: 3vw;
+}
+.footer_link .nav2{
+    margin-top: 5.4vw;
+    font-size: 2.5vw;
+}
+
+
+}
+@media (max-width:1490px) and (min-width:1139px) {
+
+    .gjob{
+        margin: 1.5vw 10vw;
+    }
+    
+}
+
+@media (max-width:1140px)  {
+  /*  .products-container{
+      /*  width:calc(100% - .9vw);
+      width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        
+    
+    }*/
+   /* .product{
+        padding: 1vw 5vw;
+        margin-left: 7vw;
+        outline: .1rem solid #ccc;
+        outline-offset: -.5rem;
+    }*/
+    .gjob{
+        margin: 5.5vw 20vw;
+    }
+   /* .container{
+       
+        max-width: 100%;
+        margin: 0;
+        padding: 2vw 0;*/
+    .job-section{
+        position: relative;
+    }
+    }
+    @media (max-width:500px) {
+        .gjob{
+            margin: 16vw 10vw;
+        }
+
+        
+    }
+    .title{
+        font-size: 3vw;
+        color: #121111;
+        font-weight: 800;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .job_we_provide{
+        width: 100%;
+        height:max-content;
+        margin-bottom:0;
+    }
+
+    .job_we_provide h2{
+        font-size: 3vw;
+        font-weight: 800;
+        text-align: center;
+        margin: 6vw 0;
+    }
+    #carouselExampleInterval{
+        width: 100%;
+        height: min-content;
+        background-size: contain;
+        justify-content: center;
+        align-items: center;
+       /* margin-left: 17.5%;*/
+
+    }
+    .carousel-item{
+        background-size: cover;
+    }
+    
+
+    
+    .product:hover{
+        outline: .2rem solid #757272;
+        outline-offset: 0;
+    }
+    
+    .product img{
+        height: 5vw;
+        clip-path: circle(50% at 50% 50%);
+    }
+    .product:hover img{
+        transform: scale(1.3);
+        clip-path: circle(50% at 50% 50%);
+    }
+    
+    .product h3{
+        padding: .3rem 0;
+        font-size: 1.3vw;
+        color: #757272 ;
+    }
+    
+    .product:hover h3{
+        color: #831616;
+    }
+    .jobl{
+        font-size: 2vw;
+        font-weight: 100;
+    }
+    
+    .short{
+        font-size: .8vw;
+        color:#831616 ;
+    }
+
+    
+
+.searchbar{
+    
+    width:130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+    font-size:15px;
+    background-color: white;
+    background-image: url('/images/search.png');
+    background-size: 15px;
+    height: 20px;
+    background-position:center;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    float:right;
+    position:relative;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.searchbar:focus{
+    width:200px;
+}
+.chechi{
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 700px;
+    width: 1400px;
+    background-size:contain;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: hidden;
+}
+
+
+.get_job{
+    position: absolute;
+    top:30%;
+    color: aliceblue;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.get_job{
+    font-size: 40px;
+}
+
+
+.gjob:hover{
+    background-color: aliceblue;
+    color:#004c4c;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+    0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.job-section{
+    background-color:whitesmoke;
+    
+}
+
+.preview.active{
+    position:fixed;
+    top: 0;
+    left:11.5%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #004c4c ;
+    height: 70vw;
+    width: 70vw;
+    background-color:#66B2B2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.preview{
+    display: none;
+    position: relative;
+    text-align: center;
+    width: 20vw;
+    margin: 2vw;
+}
+.preview.active{
+    display:inline-block;
+    z-index: 2;
+}
+.preview.active p{
+    padding: 1vw;
+    margin: 2vw;
+
+}
+
+.preview img{
+    margin-top:8vw;
+    height: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-items: center;
+}
+
+.preview h3{
+    text-align: center;
+}
+
+.fa-times{
+    position: absolute;
+    top:1vw; right: 1.5vw;
+    color: #831616;
+    font-size: 3vw;
+}
+
+.fa-times:hover{
+    transform: scale(1.3);
+}
+
+
+.buttons{
+    margin: 1vw;
+    text-align: center;
+}
+.apply-job{
+    margin: 1vw;
+    text-decoration: none;
+    background:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 600;
+    border: .1rem solid #757272;
+    color:#831616 ;
+    padding: 1vw;
+    border-radius: 2vw;
+}*/
+.foote{
+    font-size:larger;
+    font-weight:800;
+}
+fieldset{
+    background-color: whitesmoke;
+    margin: 2rem;
+    max-width:500px;
+}
+/*form{
+    margin: 1rem;
+}*/
+.submit {
+    margin: 2rem;
+    background-color:green;
+}
+.jobform{
+    width: 300px;
+    border:2px solid black;
+}
+
+
+.search_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#search-btt{
+    width: 30vw;
+}
+
